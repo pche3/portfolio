@@ -1,0 +1,130 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0,0,60);
+  
+    z-index: 9999;
+  }  
+  
+  .anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+  }
+    
+  .back-blue {
+    background-color: rgb(0,0,60);
+    border-bottom: 5px solid black;
+  } 
+  
+  .par-mod {
+    font-size: 16px;
+    color: white;
+  }
+    
+  .par-mod-2 {
+    font-size: 14px;
+    color: white;
+  }
+  
+  .border-img {
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+  }
+    
+  .sizing {
+    height: 8px;
+    background: white;
+    color: white;
+    border: 0;
+  
+  }
+  #about{
+    background-color: rgb(70,70,70);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    margin:0;
+    padding-top:100px;
+    padding-bottom:75px;
+    padding-left:50px;
+    padding-right:50px;
+    color: white;
+    position:relative;
+  }
+  
+  #portfolio{
+    margin-top:-10px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:35px;
+    padding-bottom:0px;
+    background-color: rgb(179,179,179);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: white;
+    position:relative;
+  }
+  
+  #contact{
+    margin-top:-10px;
+    padding:25px;
+    background-color: rgb(70,70,70);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    color: white;
+    position: relative;
+  }
+  
+  .make-wrap {
+    word-wrap: break-word;
+  }
+  
+  .align-botttom {
+    padding-top:25%;
+  }
+  
+  .border-icon {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    border-radius: 100%;
+    border: 6px solid white;
+    font-size: 12px;
+    height: 50px;
+    width: 50px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .bottom-grey {
+    background-color: rgb(179,179,179);
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+  }
+  
+  #last-bar {
+    height:auto;
+    background: rgb(0,0,60);
+    color: white;
+    margin-left:-15px;
+    margin-right:-15px;
+    padding:10px;
+  }
+  
+  .background-repeat {
+    background-image: url("http://enjoycss.com/webshots/42r_0.png");
+    background-repeat: repeat;
+  }
