@@ -1,130 +1,195 @@
 .nav {
-    list-style-type: none;
-    margin: 0;
-    font-size: 20px;
-    color: white;
+  list-style-type: none;
+  margin: 0;
+  font-size: 20px;
+  background-color: rgb(0,0,60);
+  border-bottom: 5px solid black;
+  height: auto;
+  padding: 25px 0px 0px 0px;
   
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgb(0,0,60);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}  
+
+.logo {
+  color:blue;
+}
+
+.nav_element {
+  color: white;
+}
+
+.nav_element:hover { 
+  color: skyblue;
+}
+
+.well_size {
+  width: 75%;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
+.cols {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.border_img {
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+}
+
+.text_mod2 {
+  font-size: 16px;
+  color: white;
+}
   
-    z-index: 9999;
-  }  
-  
-  .anchor {
-    display: block;
-    position: relative;
-    top: -70px;
-    visibility: hidden;
-  }
-    
-  .back-blue {
-    background-color: rgb(0,0,60);
-    border-bottom: 5px solid black;
-  } 
-  
-  .par-mod {
-    font-size: 16px;
-    color: white;
-  }
-    
-  .par-mod-2 {
-    font-size: 14px;
-    color: white;
-  }
-  
-  .border-img {
-    border-radius: 100%;
-    width: 400px;
-    height: 400px;
-  }
-    
-  .sizing {
-    height: 8px;
-    background: white;
-    color: white;
-    border: 0;
-  
-  }
-  #about{
-    background-color: rgb(70,70,70);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    margin:0;
-    padding-top:100px;
-    padding-bottom:75px;
-    padding-left:50px;
-    padding-right:50px;
-    color: white;
-    position:relative;
-  }
-  
-  #portfolio{
-    margin-top:-10px;
-    padding-left:25px;
-    padding-right:25px;
-    padding-top:35px;
-    padding-bottom:0px;
-    background-color: rgb(179,179,179);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    color: white;
-    position:relative;
-  }
-  
-  #contact{
-    margin-top:-10px;
-    padding:25px;
-    background-color: rgb(70,70,70);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-top: 1px solid black;
-    color: white;
-    position: relative;
-  }
-  
-  .make-wrap {
-    word-wrap: break-word;
-  }
-  
-  .align-botttom {
-    padding-top:25%;
-  }
-  
-  .border-icon {
-    background: rgba(0, 0, 0, 0.4);
-    color: white;
-    border-radius: 100%;
-    border: 6px solid white;
-    font-size: 12px;
-    height: 50px;
-    width: 50px;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-  }
-  
-  .bottom-grey {
-    background-color: rgb(179,179,179);
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-  }
-  
-  #last-bar {
-    height:auto;
-    background: rgb(0,0,60);
-    color: white;
-    margin-left:-15px;
-    margin-right:-15px;
-    padding:10px;
-  }
-  
-  .background-repeat {
-    background-image: url("http://enjoycss.com/webshots/42r_0.png");
-    background-repeat: repeat;
-  }
+.text_mod {
+  font-size: 14px;
+  color: white;
+  padding-top:15%
+}
+
+.line_sizing {
+  height: 8px;
+  background: white;
+  color: white;
+  border: 0;
+}
+
+#home{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin: 0;
+  padding: 100px 50px 50px 50px;
+  background-color: rgb(70,70,70);
+  color: white;
+  position: relative;
+  height: auto;
+}
+
+.heading {
+  font-size: 26px;
+}
+
+.project_btn {
+  background-color: rgb(0,0,60);
+  color: white;
+}
+
+.project_btn:hover {
+  background-color: skyblue;
+  color: white;
+}
+
+.welling {
+  height: 400px;
+  width: auto;
+  background-color:rgb(0,0,60);
+}
+
+.project_img {
+  border-radius: 100%;
+  max-width: 300px;
+  max-height: 300px;
+  padding: 25px;
+}
+
+#portfolio{
+  height: auto;
+  margin-top: -10px;
+  padding: 35px 25px 25px 25px;
+  background-color: rgb(179,179,179);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  color: white;
+  position: relative;
+}
+
+#contact{
+  margin-top: -10px;
+  padding: 25px;
+  background-color: rgb(70,70,70);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  color: white;
+  position: relative;
+  height:auto;
+}
+
+.border_icon {
+  background: rgba(0, 0, 0, 0.4);
+  color: rgb(0,0,60);
+  border-radius: 100%;
+  border: 6px solid rgb(0,0,60);
+  font-size: 12px;
+  height: 40px;
+  width: 40px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.border_icon:hover {
+  color: skyblue;
+  border: 6px solid skyblue;
+}
+#last_bar {
+  height: auto;
+  background: rgb(0,0,60);
+  color: white;
+  margin-left:-15px;
+  margin-right:-15px;
+  padding: 15px 0px 5px 0px;
+}
+
+.background_repeat {
+  background-image: url("http://enjoycss.com/webshots/42r_0.png");
+  background-repeat: repeat;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+.contact_ending {
+  padding-top:26%;
+}
+
+#about {
+  color: white;
+  height: auto;
+  background-color: rgb(179,179,179);
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+#ffc_icon {
+  color: green;
+}
+
+#ffc_icon:hover {
+  color: skyblue;
+}
+
+/*More possibilities for this icon in future*/
+#music_icon {
+  color: white;
+}
+
+#icon_list {
+  list-style-type: none;
+}
