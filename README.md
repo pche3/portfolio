@@ -1,6 +1,7 @@
-# portfolio
+#portfolio
 
 <h1>Building a Portfolio</h1>
+<img src="https://github.com/pche3/portfolio/blob/gh-pages/photos/profile_preview.png?raw=true" alt="Preview">
 Check it out at: https://pche3.github.io/portfolio/
 
 <h2>Objective:</h2>
@@ -15,4 +16,4 @@ User Story: Navigate to different sections of the webpages by clicking buttons i
 https://codepen.io/pche3/pen/ZvRKMW
 
 <h2>Notes:</h2>
-Still needs work and will be constantly updated with new projects
+Due to school anti-cheating policy, all projects posted here are done outside of school and for learning purposes.
