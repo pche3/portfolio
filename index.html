@@ -1,94 +1,120 @@
 <!DOCTYPE html>
 
-<head>
-    <head>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-      <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-      <!-- CSS style and javascript add on -->
-      <link rel="stylesheet" href="https://pche3/github.io/portfolio/style.css">
-      <script> $.getScript("https://rawgit.com/pche3/portfolio/blob/master/script.js", function () {}); </script> 
-    </head>  
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <!-- CSS style and javascript add on -->
+    <link rel="stylesheet" href="./style.css">
+    <script> $.getScript("https://rawgit.com/pche3/portfolio/gh-pages/script.js", function () {}); </script> 
+  </head>  
     
-    <body>
-    <main>
-  <div class="container-fluid background_repeat">
-    <div class="nav inline-block">
-      <p class="center-block logo">Phong Che</p>
-      <ul class="list-inline center-block">
-        <li><a class="nav_element" href="#home" style="">Home</a></li>
-        <li><a class="nav_element" href="#start-portfolio">Portfolio</a</li>
-        <li><a class="nav_element" href="#start-contact">Contact</a></li>
-        <li><a class="nav_element" href="https://drive.google.com/open?id=1f9t1c5eOO164qfiLSCFsLtbm7b4_-5Vj" target="_blank">Resume</a></li>
-      </ul>
-    </div>
-    <div class="container-fluid center-block well_size">
-      <div id="home">
-        <div class="row">
-          <div class="col-md-6 col_image">
-            <img class="img-fluid border_img" src="https://hdwallsource.com/img/2014/5/free-kung-fu-panda-2-wallpaper-33353-34110-hd-wallpapers.jpg" alt="Kungfu panda">
+  <body>
+    <div class="container-fluid background_repeat">
+      <header> 
+        <title>Phong Che Portfolio</title>
+        <nav>
+          <div class="nav">
+            <h4>Phong Che</h4>
+              <ul class="list-inline">
+                <li><a href="#start_home">Home</a></li>
+                <li><a href="#start_portfolio">Portfolio</a></li>
+                <li><a href="#start_contact">Contact</a></li>
+                <li><a href="https://drive.google.com/open?id=1f9t1c5eOO164qfiLSCFsLtbm7b4_-5Vj" target="_blank">Resume</a></li>
+              </ul>
           </div>
-          <div class="col-md-6">
-            <p class="text_mod make-wrap text-center">Bachelor in Comp. Eng. - Software developer - Innovator</p>
-            <hr class="line_sizing"></hr>
-            <p class="text_mod2 make-wrap text-center">I am a recent graduate passionate about being a Software Engineer. I enjoy team projects and learning every day.</p>
-          </div>
-        </div>
-      </div>
-      <a class="anchor" id="start-portfolio"></a>
-      <div id="portfolio">
-        <h4 class="text-center heading">Portfolio</h4>
-        <hr class="line_sizing"></hr>
-        <ul class="center-block list-inline text-center">
-          <li><button class="btn project_btn" id="project1">Project1</button></li>
-          <li><button class="btn project_btn" id="project2">Project2</button></li>
-          <li><button class="btn project_btn" id="project3">Project3</button></li>
-          <li><button class="btn project_btn" id="project4">Project4</button></li>
-        </ul>
-        <div class="welling">
-          <img class="img-responsive center-block project_img" src="https://hdwallsource.com/img/2014/5/free-kung-fu-panda-2-wallpaper-33353-34110-hd-wallpapers.jpg" alt="Kungfu panda" id="picture">
-          <p class="text-center" id="context">testing</p>  
-        </div>
-      </div>
-      <a class="anchor" id="start-contact"></a>
-      <div id="contact">
-        <h3 class="text-center heading">Contact</h3>
-        <hr class="line_sizing"></hr>
+        </nav>
+      </header>
+      
+      <div class="container-fluid center-block well_size">
+        <a class="anchor" id="start_home"></a>
+        <div id="home">
           <div class="row">
-            <div class="col-md-6">
-              <form action="mailto:pche18@gmail.com? subject=Website Feedback" method="post" enctype="text/plain">
-                <input type="text" name="name" class="form-control" placeholder="Name" required>
-                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                <textarea type="text" name="message" class="form-control make-wrap" style="height:100px" placeholder="Message" required></textarea>
-                <button  type="submit" class="btn btn-primary" value="Submit" style="float:right">Submit <i class="fa fa-smile-o" aria-hidden="true"></i></button>
-              </form>
+            <div class="col-sm-6 col-xs-6 cols">
+              <img class="img-fluid border_img" src="https://hdwallsource.com/img/2014/5/free-kung-fu-panda-2-wallpaper-33353-34110-hd-wallpapers.jpg" alt="Kungfu panda">
             </div>
-            <div class="col-md-6">
-              <p>Feel free to contact me directly through these inputs. I am currently looking for career opportunities, feedback, and/or any other inquiries.</p>
-              <p class="contact_ending">Note: please no spam/soliciting, thank you!</p>
+            <div class="col-sm-6 col-xs-6">
+              <p class="text_mod make-wrap text-center">Bachelor in Comp. Eng. - Software Engineer - Front-End Developer</p>
+              <hr class="line_sizing"></hr>
+              <p class="text_mod2 make-wrap text-center">I am a recent graduate passionate about being a Software Engineer. I enjoy team projects and learning every day. </p>
             </div>
           </div>
+        </div>
+
+        <div class="contain-fluid">
+          <a class="anchor" id="start_portfolio"></a>
+          <div id="portfolio">
+            <h4 class="text-center heading">Portfolio</h4>
+            <hr class="line_sizing"></hr>
+            <ul class="center-block list-inline text-center">
+              <li><button class="btn project_btn" id="project1">Quote Machine</button></li>
+              <li><button class="btn project_btn" id="project2">Digital Theremin</button></li>
+              <!-- For future projects
+              <li><button class="btn project_btn" id="project3">Project3</button></li>
+              <li><button class="btn project_btn" id="project4">Project4</button></li>
+              -->
+            </ul>
+            <div class="welling">
+              <div class="row">
+                <div class="col-sm-12 cols">
+                  <a href="https://pche3.github.io/quote_machine/" target="_blank" id="proj_link"><img class="img-responsive center-block project_img" src="https://github.com/pche3/quote_machine/blob/gh-pages/preview1.png?raw=true" alt="Quote Machine" id="picture"></a>
+                </div>
+                <div class="col-sm-12 cols">
+                  <p class="text-center" id="context">Come checkout this quote generator that utilizes an API to retrieve quotes. Once a JSON object is retrieved, the author and quote can be parsed. The user can tweet the quote through Twitter through a dedicated Twitter button.</p>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="contain-fluid">
+          <a class="anchor" id="start_contact"></a>
+          <div id="contact">
+            <h3 class="text-center heading">Contact</h3>
+            <hr class="line_sizing"></hr>
+              <div class="row">
+                <div class="col-sm-6 col-xs-6">
+                  <form action="mailto:pche18@gmail.com? subject=Website Feedback" method="post" enctype="text/plain">
+                    <input type="text" name="name" class="form-control" placeholder="Name" required>
+                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    <textarea type="text" name="message" class="form-control make-wrap" style="height:100px" placeholder="Message" required></textarea>
+                    <button  type="submit" class="btn btn-primary" value="Submit" style="float:right">Submit <i class="fa fa-smile-o" aria-hidden="true"></i></button>
+                  </form>
+                </div>
+                <div class="col-sm-6 col-xs-6">
+                  <p>Feel free to contact me directly through these inputs. I am currently looking for career opportunities, feedback, and/or any other inquiries.</p>
+                  <p class="contact_ending">Note: please no spam/soliciting, thank you!</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div> 
+    </div>   
+
+    <div class="contain-fluid">
+      <div class="row" id="about">
+        <div class="col-sm-6 col-xs-6">
+          <h2 class="text-center heading">About This Page</h2>
+          <p class="text-center">Made with <a id="ffc_icon" href="https://www.freecodecamp.org/" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i> </a> guidance </i> and <i class="fa fa-music" id="music_icon" aria-hidden="true"></i> by <span class="logo">Phong Che</span></p>
+        </div>
+        <div class="col-sm-6 col-xs-6">
+          <h2 class="text-center heading">Connections</h2>
+          <ul class="list-inline text-center" id="icon_list">
+            <li><a href="https://www.linkedin.com/in/phong-che-181b94154" target="_blank"><i class="fa fa-linkedin border_icon" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.codewars.com/users/pche3" target="_blank"><i class="fa fa-code border_icon" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/pche3" target="_blank"><i class="fa fa-github border_icon" aria-hidden="true"></i></a></li>
+          </ul>  
+        </div>
       </div>
     </div>
-    <div class="row" id="about">
-      <div class="col-md-6">
-        <h2 class="text-center heading">About This Page</h2>
-        <p class="text-center">Made with <a id="ffc_icon" href="https://www.freecodecamp.org/" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i> </a> guidance </i> and <i class="fa fa-music" id="music_icon" aria-hidden="true"></i> by <span class="logo">Phong Che</span></p>
-      </div>
-      <div class="col-md-6">
-        <h2 class="text-center heading">Connections</h2>
-        <ul class="list-inline text-center" id="icon_list">
-          <li><a href="https://www.linkedin.com/in/phong-che-181b94154" target="_blank"><i class="fa fa-linkedin border_icon" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.codewars.com/users/pche3" target="_blank"><i class="fa fa-code border_icon" aria-hidden="true"></i></a></li>
-          <li><a href="https://github.com/pche3" target="_blank"><i class="fa fa-github border_icon" aria-hidden="true"></i></a></li>
-        </ul>  
-      </div>
-    </div>
-    <div id=last_bar>
-      <p class="text-center">Made in 2018 by Phong Che <i class="fa fa-copyright" aria-hidden="true"></i></p>
-    </div>  
-  </div>
-  
-    </main>
-    </body>
-  </html>
+    
+    <div class="contain-fluid">
+      <footer>
+        <div id=last_bar>
+          <p class="text-center">Made in 2018 by Phong Che <i class="fa fa-copyright" aria-hidden="true"></i></p>
+        </div>  
+      </footer>
+    </div> 
+  </body>
+</html>

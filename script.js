@@ -1,13 +1,12 @@
 $(document).ready( function() {
-    $("#project1").on("click", function() {
-      document.getElementById("picture").src ="https://hdwallsource.com/img/2014/5/free-kung-fu-panda-2-wallpaper-33353-34110-hd-wallpapers.jpg";
-      console.log("printing pic1");
-      $("#context").html("Random Text testing");
-      });
-    $("#project2").on("click", function() {
-      document.getElementById("picture").src = "";
-      console.log("printing pic2");
-      $("#context").html("Changing the text");
-      });
-  });
-  
+  $("#project1").on("click", function() {
+    document.getElementById("picture").src ="https://github.com/pche3/quote_machine/gh-pages/preview1.png";
+    document.getElementById("picture").alt ="Quote Machine";
+    $("#context").html("Come checkout this quote generator that utilizes an API to retrieve quotes. Once a JSON object is retrieved, the author and quote can be parsed. The user can tweet the quote through Twitter through a dedicated Twitter button.");
+    });
+  $("#project2").on("click", function() {
+    document.getElementById("picture").src ="https://github.com/pche3/theremin/master/preview_theremin.png";
+    document.getElementById("picture").alt ="Digital Theremin";
+    $("#context").html("This website is dedicated to a project that me and friends worked on. Also, it is the first website I made to pratice front-end development. The project is all about developing a new product that eliminates previous generation design challenges.");
+    });
+}
