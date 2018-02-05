@@ -9,4 +9,4 @@ $(document).ready( function() {
     document.getElementById("picture").alt ="Digital Theremin";
     $("#context").html("This website is dedicated to a project that me and friends worked on. Also, it is the first website I made to pratice front-end development. The project is all about developing a new product that eliminates previous generation design challenges.");
     });
-}
+})
