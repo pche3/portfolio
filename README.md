@@ -9,8 +9,8 @@ Create the layout and theme of the website to represent a portfolio
 
 <h2>Requirements:</h2>
 User Story: Access all portfolio webpage's content just by scrolling 
-User Story: Clicking different buttons will take to social medial pages
-User Story: Navigate to different sections of the webpages by clicking buttons in the navigation
+<br>User Story: Clicking different buttons will take to social medial pages
+<br>User Story: Navigate to different sections of the webpages by clicking buttons in the navigation
 
 <h2>Implemented using codepen:</h2>
 https://codepen.io/pche3/pen/ZvRKMW
